@@ -1,1 +1,10 @@
-* { margin:0!important; padding:0; box-sizing:border-box; }
+.body {
+    margin: 0px;
+}
+
+mat-toolbar {
+    background-color: #3D4C42;
+    color: white;
+    font-size: 25px;
+
+}
