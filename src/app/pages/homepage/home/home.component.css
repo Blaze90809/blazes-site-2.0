@@ -1,0 +1,29 @@
+.home-page {
+    background-image: url('./../../../../assets/images/code-coder-coding-270404.jpg');
+    background-size: cover;
+    height:100vh;
+    width: auto;
+}
+
+.introScreen {
+    width: 80%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0.95;
+    border-radius: 25px;
+}
+
+.introText {
+    text-align: center;
+}
+
+.profilePic {
+    width: 20%;
+    height: auto;
+}
