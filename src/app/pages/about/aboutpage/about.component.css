@@ -1,0 +1,43 @@
+mat-card {
+    margin: 50px;
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+}
+
+img {
+    height: 100%
+}
+
+.flex-container {
+    display: flex;
+  }
+
+  .paragraph {
+      flex: 70%;
+    height: 100%;
+  }
+
+  .image {
+      flex: 30%;
+      padding: 20px;
+      float: right;
+      max-height: 250px;
+  }
+  img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 200px;
+    object-position: top;
+  }
+  mat-card-title {
+      font-size: 40px;
+  } 
+
+  .home-page {
+    background-image: url('./../../../../assets/images/code-coder-coding-270404.jpg');
+    background-size: cover;
+    height:100vh;
+    height: 100%;
+    width: auto;
+}

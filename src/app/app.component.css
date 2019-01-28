@@ -16,3 +16,11 @@ mat-toolbar {
     margin-left: 10px;
     margin-right: 10px;
 } */
+
+/* a { color:white; }
+/* a:hover { color:blue; }
+.nav a { color:green; } */ 
+
+.link {
+    cursor: pointer;
+}
