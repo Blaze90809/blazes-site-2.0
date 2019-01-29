@@ -7,10 +7,24 @@
 </div>
 
 <mat-toolbar>
+  <mat-toolbar-row>
     <span class="link" routerLink="/">Blaze Fugina</span>
     <span class="example-spacer"></span>
+
+    <div fxFlex fxShow=”true” fxHide.xs=”true”>
+      <button mat-button routerLink="/About">About Me</button>
+      <button mat-button>My Work</button>
+      <button mat-button>Contact Me</button>
+    </div>
+  </mat-toolbar-row>
+  <!-- </mat-toolbar-row> -->
+  <!-- <div fxFlex fxShow=”true” fxHide.xs=”false”></div> -->
+  <mat-toolbar-row xFlex fxHide="true" fxShow.xs=”true”>
+    <!-- <span class="example-spacer"></span> -->
     <button mat-button routerLink="/About">About Me</button>
     <button mat-button>My Work</button>
     <button mat-button>Contact Me</button>
+  </mat-toolbar-row>
+  <!-- </div> -->
 </mat-toolbar>
 <router-outlet></router-outlet>
