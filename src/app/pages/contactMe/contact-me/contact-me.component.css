@@ -1,0 +1,8 @@
+.home-page {
+    background-image: url('./../../../../assets/images/code-coder-coding-270404.jpg');
+    background-size: cover;
+    /* height:100vh; */
+    height: 100%;
+    width: auto;
+    padding-top: 20px;
+}
