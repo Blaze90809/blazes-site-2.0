@@ -27,17 +27,61 @@ img {
   img {
     width: 100%;
     object-fit: cover;
-    max-height: 200px;
+    /* max-height: 200px; */
     object-position: top;
   }
   mat-card-title {
       font-size: 40px;
   } 
 
+  @media (max-width:640px){
+    .image {
+        display: none;
+    }
+    .introScreen {
+        width: 80%;
+        height: auto;
+        background-color: white;
+        padding: 20px;
+        transform: none;
+        top: auto;
+        left: auto;
+        /* position: fixed; */
+        /* top: 50%; */
+        /* left: 50%; */
+        /* -webkit-transform: translate(-50%, -50%); */
+        /* transform: translate(-50%, -50%); */
+        border-radius: 25px;
+        margin: 0 auto;
+    }
+  }
+  @media (min-width:640px){
+    .introScreen {
+        width: 80%;
+        height: auto;
+        background-color: white;
+        padding: 20px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        /* opacity: 0.8; */
+        border-radius: 25px;
+    }
+  }
+
+  .hed {
+      text-align: center;
+  }
+
   .home-page {
     background-image: url('./../../../../assets/images/code-coder-coding-270404.jpg');
     background-size: cover;
-    height:100vh;
+    /* height:100vh; */
     height: 100%;
     width: auto;
+    padding-top: 20px;
 }
+
+
