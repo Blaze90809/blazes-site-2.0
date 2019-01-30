@@ -6,7 +6,9 @@
 }
 
 .worksPanel {
-    background-color: gray;
+    /* background-color: gray; */
+    background-image: url('./../../../../assets/images/code-coder-coding-270404.jpg');
+    background-size: cover;
     Width: auto;
     height: auto;
     padding: 10px;
@@ -48,7 +50,15 @@
 }
 
 .hedStuff {
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
   /* height: 350px; */
   .background {
