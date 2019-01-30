@@ -1,6 +1,51 @@
 .home-page {
-    background-image: url('./../../../../assets/images/code-coder-coding-270404.jpg');
+    /* background-image: url('./../../../../assets/images/code-coder-coding-270404.jpg');
     background-size: cover;
     height:100vh;
-    width: auto;
+    width: auto; */
 }
+
+.worksPanel {
+    background-color: white;
+    /* width: 90%; */
+    /* height: auto; */
+    /* margin: 0 auto;
+    position: fixed;
+    margin-top: 20px;
+    /* top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    Width: 100%;
+    height: auto;
+}
+
+.example-card {
+    /* max-width: 400px; */
+    width: 50%;
+    margin: 20px;
+  }
+
+  .mat-card-image {
+    object-fit: cover; /*this makes de image in src fit to the size of specified below*/
+    /* width: 100%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+    height: 200px;
+  }
+
+  @media only screen and (max-width: 600px) {
+      .example-card {
+        width: 90%;
+        margin: 0 auto;
+      }
+  }
+  /* xs: 600px */
+
+  .rowSize {
+      width: 100%;
+  }
+@media only screen and (min-width: 960px) {
+    .mat-card-image {
+        height: 350px;
+    }
+}
+  /* height: 350px; */

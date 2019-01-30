@@ -14,11 +14,10 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     BrowserModule,
-    BrowserAnimationsModule,
+    //BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,
