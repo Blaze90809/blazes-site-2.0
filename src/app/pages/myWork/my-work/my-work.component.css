@@ -32,12 +32,35 @@
         margin: 0 auto;
         margin-bottom: 20px;
       }
+      .hedStuff {
+        background-color: white;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        opacity: 0.8;
+      }
   }
   @media only screen and (min-width: 600px) and (max-width: 960px) {
       .example-card {
           margin: 10px;
           width: 50%;
       }
+      .hedStuff {
+        /* padding-left: 20px; */
+        background-color: white;
+        width: 92%;
+        margin: 0 auto;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        opacity: 0.8;
+    }
   }
 
   .rowSize {
@@ -47,20 +70,30 @@
     .mat-card-image {
         height: 350px;
     }
+    .hedStuff {
+        /* padding-left: 20px; */
+        background-color: white;
+        width: 92%;
+        margin: 0 auto;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        opacity: 0.8;
+    }
 }
 
-.hedStuff {
-    /* padding-left: 20px; */
-    background-color: white;
-    width: 70%;
-    margin: 0 auto;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
   /* height: 350px; */
   .background {
       background-color: gray;
+  }
+
+  /* .mat-card-content {
+    display: flex;
+    flex: 1;
+  } */
+  .mat-card-actions {
+      margin-top: auto;
   }
